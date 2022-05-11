@@ -1445,6 +1445,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2015434656898269656}
     m_Modifications:
+    - target: {fileID: -4188797199338812684, guid: fad35a70731ab804c975c717ee8862a5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: fad35a70731ab804c975c717ee8862a5, type: 3}
       propertyPath: m_Name
       value: TurretRobot
@@ -1517,6 +1522,22 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d57ebae9f701b57448648b380d0beb65, type: 2}
+    - target: {fileID: 13700000, guid: fad35a70731ab804c975c717ee8862a5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2bf5c83a5650c6e4a9540a259d6f0eb7, type: 2}
+    - target: {fileID: 13700004, guid: fad35a70731ab804c975c717ee8862a5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7902873ca7506aa489f479a3cecbc655, type: 2}
+    - target: {fileID: 13700004, guid: fad35a70731ab804c975c717ee8862a5, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7902873ca7506aa489f479a3cecbc655, type: 2}
+    - target: {fileID: 13700004, guid: fad35a70731ab804c975c717ee8862a5, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7902873ca7506aa489f479a3cecbc655, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fad35a70731ab804c975c717ee8862a5, type: 3}
 --- !u!4 &7886326314632062831 stripped

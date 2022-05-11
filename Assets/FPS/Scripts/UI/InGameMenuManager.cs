@@ -20,9 +20,6 @@ namespace Unity.FPS.UI
         [Tooltip("Toggle component for shadows")]
         public Toggle ShadowsToggle;
 
-        [Tooltip("Toggle component for invincibility")]
-        public Toggle InvincibilityToggle;
-
         [Tooltip("Toggle component for framerate display")]
         public Toggle FramerateToggle;
 
@@ -52,9 +49,6 @@ namespace Unity.FPS.UI
 
             ShadowsToggle.isOn = QualitySettings.shadows != ShadowQuality.Disable;
             ShadowsToggle.onValueChanged.AddListener(OnShadowsChanged);
-
-            InvincibilityToggle.isOn = m_PlayerHealth.Invincible;
-            InvincibilityToggle.onValueChanged.AddListener(OnInvincibilityChanged);
 
             FramerateToggle.isOn = m_FramerateCounter.UIText.gameObject.activeSelf;
             FramerateToggle.onValueChanged.AddListener(OnFramerateCounterChanged);

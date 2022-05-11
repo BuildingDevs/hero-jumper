@@ -46,7 +46,7 @@ namespace Unity.FPS.Gameplay
             // update the objective text according to how many enemies remain to kill
             if (targetRemaining == 0)
             {
-                CompleteObjective(string.Empty, GetUpdatedCounterAmount(), "Objective complete : " + Title);
+                CompleteObjective(string.Empty, GetUpdatedCounterAmount(), "Objective Completed: " + Title);
             }
             else if (targetRemaining == 1)
             {
