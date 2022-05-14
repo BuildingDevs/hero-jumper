@@ -10,6 +10,6 @@ public class GameData
 
     public GameData()
     {
-        this.currentLevel = 0;
+        this.currentLevel = 1;
     }
 }

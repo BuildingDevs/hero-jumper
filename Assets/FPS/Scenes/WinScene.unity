@@ -255,8 +255,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 129299359}
-        m_TargetAssemblyTypeName: Unity.FPS.UI.LoadSceneButton, fps.UI
-        m_MethodName: LoadTargetScene
+        m_TargetAssemblyTypeName: NextLevel, fps.UI
+        m_MethodName: LoadNextLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -313,10 +313,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 129299354}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9d73053268a2ae48bb9e7d4bf6419fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 2427edc137c80f84b8a603f3d5e5b04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: MainScene
 --- !u!1 &134625305
 GameObject:
   m_ObjectHideFlags: 0
